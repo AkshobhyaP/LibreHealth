@@ -1,0 +1,2 @@
+rootProject.name='LibreHealth'
+include ':app'
