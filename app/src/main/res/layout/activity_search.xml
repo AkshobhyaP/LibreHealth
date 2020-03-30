@@ -53,6 +53,25 @@
         android:drawableEnd="@drawable/ic_calendar"
         android:drawablePadding="4dp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="ID provided at child registartion"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText_search_did"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:inputType="textShortMessage"
+        android:shadowColor="@color/colorPrimary"
+        android:drawablePadding="4dp"
+        />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/search_button"
@@ -64,14 +83,5 @@
         android:background="@color/colorPrimary"
         android:onClick="button_search"
         android:text="@string/search" />
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/showall_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimary"
-        android:onClick="button_showall"
-        android:text="ALL REGISTERED CHILDREN" /></LinearLayout>
+</LinearLayout>
 </LinearLayout>
